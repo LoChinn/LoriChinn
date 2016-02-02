@@ -1,0 +1,35 @@
+body {
+	background-color: #008182;
+	color: #a6dbd1;
+	font-family:Georgia, serif;
+}
+
+h1 {
+	color: #f5c7cb;
+	font-size: 70px;
+	font-style: italic;
+	text-align: right;
+	line-height: 2em;
+	letter-spacing: 1em;
+	font-family: 'Creepster';
+}
+
+p {
+	font-family: 'Nixie One';
+	font-size: 15px;
+	line-height: 4em;
+	letter-spacing: 0.5em;
+}
+
+li {
+	font-family: 'Nixie One';
+	color: #dae03b;
+	font-size: 15px;
+	letter-spacing: .25em;
+}
+
+h3 {
+	color: #ebcbdb;
+	letter-spacing: 1em;
+	font-size: 30px;
+}

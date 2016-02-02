@@ -1,0 +1,14 @@
+body { 
+	background-color: orange
+ }
+
+#artist {
+	width: 1000px;
+	height: 900px;
+	background-color: purple;
+	margin: auto;
+	font-family: Helvetica;
+	font-size: 30px;
+	text-align: center;
+
+}
