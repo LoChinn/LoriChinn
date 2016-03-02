@@ -1,0 +1,139 @@
+body { 
+	background: url(../images/background.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+
+}
+
+#black {
+	width:2000px;
+	height: 5000px;
+	background:black;
+	z-index: 3;
+	margin: -10px;
+}
+
+
+
+
+
+#dark {
+	width: 0;
+	height: 0;
+    z-index: 2;
+	float:left;
+	position: absolute;
+	left:0px;
+	opacity: .6;
+	float: left;
+
+}
+
+#light {
+	width: 2000px;
+	height: 1430px;
+	
+}
+
+
+
+#blanket {
+	z-index: 2;
+	opacity: .8;
+	float: left;
+}
+
+#blanket2 {
+	z-index: 2;
+	opacity: .5;
+	float: left;
+}
+
+#b2 {
+	z-index: 2;
+	opacity: .8;
+	float: left;
+	transform: rotate(-180deg);}
+
+
+#eyes {
+	z-index: 1;
+	float:left;
+	opacity: .5;
+	margin: 0px;
+	
+}
+ 
+#head {
+	top-margin: -5px;
+	background: black;
+}
+
+ 
+#square {
+	border-radius: 50%;
+	background: grey;
+	float: left;
+	z-index: 4;
+	opacity: .7;
+	position: top;
+	margin: 100px;
+
+}
+
+#square:hover {
+	opacity: 0;
+	color: white;
+}
+
+#ihop {
+	width: 2000px;
+	height: 5000px;
+	z-index: 1;
+	
+}
+
+#circle {
+	width: 2000px;
+	height: 100px;
+	position: relative;
+	top: 20px;
+	z-index: 1;
+	margin-top: 450px;
+}
+
+#triangle {
+	width: 2000px;
+	height: 100px;
+	z-index: 1;
+	opacity: 1;
+	
+
+}
+
+#s {
+	border-radius: 50%;
+	background: grey;
+	float: left;
+	z-index: 1;
+	opacity: 1;
+	margin: 100px;
+
+
+}
+
+#bed {
+	height: 2860px;
+	width: 200px;
+	margin: -10px;
+	float: left;
+}
+
+#thunder {
+	position: absolute;
+}
+
+
+
+
