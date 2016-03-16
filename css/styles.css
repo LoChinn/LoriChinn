@@ -7,12 +7,14 @@ h1 {
 
 }
 
+body {
+	background-color: #f1de7d;
+}
+
 #container {
 	font-family: Helvetica;
 	font-size: 20px;
 	color: #008468;
 	position: center;
-	background-color: #f1de7d;
-	
 
-}
+	}
