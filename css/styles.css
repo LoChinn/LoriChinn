@@ -3,14 +3,16 @@ h1 {
 	font-size: 50px;
 	color: #008468;
 	position: center;
+	
 
 }
 
-container {
+#container {
 	font-family: Helvetica;
 	font-size: 20px;
 	color: #008468;
 	background-color: black;
 	position: center;
+	
 
 }
