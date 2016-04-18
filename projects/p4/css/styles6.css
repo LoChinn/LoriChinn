@@ -1,0 +1,124 @@
+body{
+	background: #94d1de;
+}
+
+#container {
+	width:1440px;
+	height: 700px;
+}
+
+
+@font-face {
+	font-family: 'American Typewriter';
+	src: url("AmericanTypewriter.ttc");
+}
+
+#good {
+	font-size: 50px;
+	width: 200px;
+	height: 500px;
+	float: left;
+	margin-left: 280px;
+	margin-top: 230px;
+}
+
+#main {
+	font-family: 'Chewy', cursive;
+}
+
+#bad {
+    font-size: 50px;
+	width: 200px;
+	height: 500px;
+	float: left;
+	margin-left: 360px;
+	margin-top: -250px;
+
+}
+
+#main2 {
+	font-family: 'creepster';
+	position: center;
+	color: black;
+}
+
+#pancake {
+    font-size: 30px;
+	width: 150px;
+	height: 500px;
+	float: left;
+	margin-top: -410px;
+	margin-left: 560px;
+	color: #ac6f3c;
+
+}
+
+
+
+@font-face {
+	font-family: 'DIN Alternate Bold';
+	src: url("DINAlternateBold.ttf");
+}
+
+@font-face {
+	font-family: 'Futura';
+	src: url("Futura.ttc");
+}
+
+.main3 {
+	font-family: 'Sigmar One', cursive;
+}
+
+
+#grace {
+	margin-top: -310px;
+	margin-left: -240px;
+	color: white;
+
+	
+}
+
+#theresa {
+	margin-top: -280px;
+	margin-left: -215px;
+	font-family: Gill Sans MT Bold;
+	color: white;
+	
+}
+
+#square {
+	border-radius: 50%;
+	background: #94d1de;
+	float: left;
+	opacity: 1;
+	width: 500px;
+
+	
+
+
+}
+
+#warped {
+	width: 500px;
+	height: 500px;
+}
+
+#square:hover {
+	opacity: 0;
+	color: white;
+}
+
+
+#circle {
+	border-radius: 50%;
+	background: #94d1de;
+	float: left;
+	opacity: 1;
+	
+
+
+}
+
+#circle:hover {
+	opacity: 0;
+	color: white;

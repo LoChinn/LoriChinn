@@ -1,0 +1,49 @@
+body { 
+	background: #000000;
+}
+
+#container {
+	width: 1200px;
+	height: 4000px;
+	margin: auto;
+}
+
+@font-face {
+	font-family: 'Chalkduster';
+	src: url("Chalkduster.ttf");
+}
+
+@font-face {
+	font-family: 'GiddyupStd';
+	src: url("GiddyupStd.otf");
+}
+
+@font-face {
+	font-family: 'Herculanum';
+	src: url("Herculanum.ttf");
+}
+
+#main {
+	font-family: GiddyupStd;
+	font-size: 300px;
+	color: #FF3E96;
+	text-align: center;
+}
+
+#main2 {
+	font-family: Herculanum;
+	font-size: 100px;
+	color: #4B0082;
+	text-align: center;
+	margin-top: 200px;
+}
+
+#box3 {
+	font-family: chalkduster;
+	font-size: 200px;
+	color: #F29403;
+	text-align: center;
+	margin-top: 200px;
+}
+
+

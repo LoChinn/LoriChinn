@@ -1,0 +1,114 @@
+body {
+  background: #00cdbb;
+}
+
+@keyframes slide {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 244px;
+    top: 100px;
+  }
+  100% {
+    left: 488px;
+    top: 0;
+  }
+}
+
+
+.background2 {
+  border-radius: 30px;
+  height: 300px;
+  position: relative;
+  min-width: 538px;
+  width: 600px;
+  margin-top: -770px;
+  margin-left: 300px;
+}
+
+.background2:hover .dot2 {
+  animation-name: slide;
+  animation-duration: .7s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.dot2 {
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+  font-family: helvetica;
+  color: #f4da14;
+  margin-top: -30px;
+}
+
+@-webkit-keyframes example {
+   from { transform: scale(2.0); }
+   to   { transform: scale(1.0); }
+}
+
+.colorbox {
+   -webkit-animation-name: example;
+   -webkit-animation-duration: 1s;
+   -webkit-animation-timing-function: ease; /* ease is the default */
+   -webkit-animation-delay: 1s;             /* 0 is the default */
+   -webkit-animation-iteration-count: 2;    /* 1 is the default */
+   -webkit-animation-direction: alternate;  /* normal is the default */
+   margin-left: 100px;
+   margin-top: 50px;
+   height: 100px;
+   width: 100px;
+   font-family: helvetica;
+   font-size: 200px;
+   color: #840539;
+
+
+   animation-iteration-count: infinite;
+ }
+
+.colorbox2 {
+   -webkit-animation-name: example;
+   -webkit-animation-duration: .7s;
+   -webkit-animation-timing-function: ease; /* ease is the default */
+   -webkit-animation-delay: .1s;             /* 0 is the default */
+   -webkit-animation-iteration-count: 2;    /* 1 is the default */
+   -webkit-animation-direction: alternate;  /* normal is the default */
+   margin-left: 700px;
+   margin-top: 200px;
+   height: 600px;
+   width: 600px;
+   opacity: .5;
+   font-family: helvetica;
+
+   animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes example3 {
+   from { transform: scale(2.0); }
+   to   { transform: scale(1.0); }
+}
+
+
+.colorbox3 {
+   -webkit-animation-name: example;
+   -webkit-animation-duration: .1s;
+   -webkit-animation-timing-function: ease; /* ease is the default */
+   -webkit-animation-delay: .5s;             /* 0 is the default */
+   -webkit-animation-iteration-count: 2;    /* 1 is the default */
+   -webkit-animation-direction: alternate;  /* normal is the default */
+   margin-left: 300px;
+   margin-top: 200px;
+   height: 100px;
+   width: 100px;
+   animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes example3 {
+   from { transform: scale(2.0); }
+   to   { transform: scale(1.0); }
+}
