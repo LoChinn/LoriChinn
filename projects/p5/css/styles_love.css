@@ -1,0 +1,76 @@
+#draggable {
+  border-color: #ffffff;
+
+}
+
+.ui-draggable {
+  position:relative;
+  z-index:0;
+}
+
+#but1 {
+	font-size: 150px;
+	font-family: 'Fjalla One', sans-serif;
+	margin-left: 100px;
+	margin-top: -2000px;
+	
+	}
+
+#but2 {
+	font-size: 150px;
+	font-family: 'Fjalla One', sans-serif;
+	margin-left: 700px;
+	margin-top: -400px;
+	
+	}
+
+#but3 {
+	font-size: 150px;
+	font-family: 'Fjalla One', sans-serif;
+	margin-left: 350px;
+	margin-top: 50px;
+	
+	}
+
+#but4 {
+	font-size: 400px;
+	font-family: 'Fjalla One', sans-serif;
+	
+	}
+
+#but44 {
+	font-size: 400px;
+	font-family: 'Fjalla One', sans-serif;
+	margin-top: -500px;
+	color:black;
+	opacity: 0;
+}
+
+#screen1 {
+	
+	margin-left: 100px; 
+
+
+}
+
+#screen2{
+	margin-left: 700px;
+
+}
+
+#screen3{
+	margin-left: 350px;
+
+}
+
+#gif {
+	
+	margin-top: -300px;
+	margin-left: 800px;
+}
+
+#gif2 {
+	
+	margin-top: 200px;
+	margin-left: 100px;
+}
