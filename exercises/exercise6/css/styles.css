@@ -1,39 +1,22 @@
 #container {
-	width:2000px;
-	height:1300px;
+width: 800px;
+height: 800px;
+
+
 }
 
-#black {
-	width: 200px;
-	height: 600px;
-	float: left;
-	background: black;
+
+#red {
+width: 100px;
+height: 100px;
+float: left;
+background: red;
 }
 
-#green {
-	width: 600px;
-	height: 600px;
-	float: left;
-	margin-left: 20px;
-	background: green;
-}
 
-#pink {
-	width:600px;
-	height:200px;
-	margin-bottom:20px;
-	background: pink;
-}
-
-#yellow {
-	width: 290px;
-	height: 400px;
-	float: left;
-	background: yellow;
-}
-
-#blue {
-	width: 800px;
-	height:600px;
-	background: white;
+#white {
+width: 100px;
+height: 100px;
+float: left;
+background: white;
 }
