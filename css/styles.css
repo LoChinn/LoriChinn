@@ -17,6 +17,11 @@ body {
 	color: #f9c400;
 	position: center;
 	width: 400px;
-	
+
 
 	}
+
+#gif {
+	margin-left: 300px;
+	margin-top: -300px;
+}
